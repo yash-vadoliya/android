@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".SecondActivity">
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Data" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/Sname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/edit_web"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter url"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btn_web"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Serch" />
+
+    <EditText
+        android:id="@+id/edit_dial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter Mobile Number"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btn_dial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dial" />
+
+    <Button
+        android:id="@+id/btn_loc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Location" />
+
+
+</LinearLayout>
