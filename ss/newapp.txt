@@ -1,0 +1,10 @@
+create an application that will run with following flow
+1. create a splace screen.
+2. create an actitvty that will help user to login in app. in this activity there is option to register user, after success loigin user will move to display activity.
+3. create an activity will help you to display all data of registerd user, provide a button to edit the detail or user data.
+4. when user click on register user button in login activity, following details will enter by user and user detail eill be store in sharedpreferance, like
+	surname, name, emial, password, dob, gender, city.
+
+
+note : provide A Better user experiance for user convinance.
+

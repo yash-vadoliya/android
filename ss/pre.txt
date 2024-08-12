@@ -1,0 +1,6 @@
+Check Datatype of variable...
+	varName::class.simpleName
+	varName::class.typeName
+	
+
+:: -> Class Reference Operator
